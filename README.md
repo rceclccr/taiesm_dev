@@ -7,7 +7,7 @@ The `taiesm_dev` repository is dedicated to the ongoing development of the Taiwa
 ## Development simulations
 You can find a list of TaiESM development simulations under the [Issues](https://github.com/rceclccr/taiesm_dev/issues) section. 
   - Each simulation is recorded as a github issue. 
-  - Simulations can be sorted with labels (for instance, compset: BLT1850). 
+  - Simulations can be sorted with labels (for instance, compset: B1850). 
 
 To request a new simulation run, please use the [Run request](https://github.com/rceclccr/taiesm_dev/issues/new/choose) template. and provide as much details as possible. 
 
