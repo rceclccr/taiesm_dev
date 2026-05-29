@@ -1,0 +1,13 @@
+&drydep_inparm
+/
+&megan_emis_nl
+ megan_factors_file = '/home/j07hsu00/runs/cesm/inputdata/atm/cam/chem/trop_mozart/emis/megan21_emis_factors_c20120313.nc'
+ megan_specifier = 'ISOP = isoprene', 'C10H16 = pinene_a + carene_3 + thujene_a', 'CH3OH = methanol', 'C2H5OH = ethanol',
+         'CH2O = formaldehyde', 'CH3CHO = acetaldehyde', 'CH3COOH = acetic_acid', 'CH3COCH3 = acetone'
+/
+#!--------------------------------------------------------------------------------------------------------------------------
+#! drv_flds_in:: Comment:
+#! This namelist was created using the following command-line:
+#!     /work1/j07hcl00/taiesm_work/code/TaiESM_1/models/lnd/clm/bld/CLM build-namelist -infile /work1/j07hcl00/taiesm_work/f02.t12.B2000.ocn62levs.a01/Buildconf/clmconf/cesm_namelist -csmdata /home/j07hsu00/runs/cesm/inputdata -inputdata /work1/j07hcl00/taiesm_work/f02.t12.B2000.ocn62levs.a01/Buildconf/clm.input_data_list -ignore_ic_year -namelist &clm_inparm start_ymd = 00020101  / -use_case 2000_control -res 0.23x0.31 -clm_start_type startup -l_ncpl 96 -lnd_frac /home/j07hsu00/runs/cesm/inputdata/share/domains/domain.lnd.fv0.23x0.31_tx0.1v2_070929.nc -glc_nec 0 -co2_ppmv 369.125 -co2_type diagnostic -config /work1/j07hcl00/taiesm_work/f02.t12.B2000.ocn62levs.a01/Buildconf/clmconf/config_cache.xml
+#! For help on options use: /work1/j07hcl00/taiesm_work/code/TaiESM_1/models/lnd/clm/bld/CLM build-namelist -help
+#!--------------------------------------------------------------------------------------------------------------------------

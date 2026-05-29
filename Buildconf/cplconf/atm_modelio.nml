@@ -1,0 +1,11 @@
+&modelio
+ diri = '/work1/j07hcl00/taiesm_work/f02.t12.B2000.ocn62levs.a01/bld/atm'
+ diro = '/work1/j07hcl00/taiesm_work/f02.t12.B2000.ocn62levs.a01/run'
+ logfile = 'atm.log.260529-062538'
+/
+&pio_inparm
+ pio_numiotasks = -99
+ pio_root = -99
+ pio_stride = -99
+ pio_typename = 'pnetcdf'
+/

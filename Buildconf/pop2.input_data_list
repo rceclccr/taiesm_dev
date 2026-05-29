@@ -1,0 +1,9 @@
+chl_filename = /home/j07hsu00/runs/cesm/inputdata/ocn/pop/tx0.1v2/forcing/chlorophyll_1998-2003_monthly_20080418.ieeer8
+init_ts_file = /home/j07hsu00/runs/cesm/inputdata/ocn/pop/tx0.1v2/ic/GC007v3.pop.r.0001-01-16-00000
+hdr_init_ts_file = /home/j07hsu00/runs/cesm/inputdata/ocn/pop/tx0.1v2/ic/GC007v3.pop.r.0001-01-16-00000.hdr
+shf_filename = /home/j07hsu00/runs/cesm/inputdata/ocn/pop/tx0.1v2/forcing/shf_20100318.ieeer8
+sfwf_filename = /home/j07hsu00/runs/cesm/inputdata/ocn/pop/tx0.1v2/forcing/sfwf_mm_PHC2_salx_flxio_20100323.ieeer8
+region_mask_file = /home/j07hsu00/runs/cesm/inputdata/ocn/pop/tx0.1v2/grid/region_mask_20080702.ieeei4
+horiz_grid_file = /home/j07hsu00/runs/cesm/inputdata/ocn/pop/tx0.1v2/grid/horiz_grid_200709.ieeer8
+topography_file = /home/j07hsu00/runs/cesm/inputdata/ocn/pop/tx0.1v2/grid/topography_km62_201209.ieeei4
+bottom_cell_file = /home/j07hsu00/runs/cesm/inputdata/ocn/pop/tx0.1v2/grid/dzbc_km62_201209.ieeer8

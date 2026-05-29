@@ -1,0 +1,14 @@
+lnd2rof_fmapname = /home/j07hsu00/runs/cesm/inputdata/lnd/clm2/mappingdata/maps/0.23x0.31/map_0.23x0.31_nomask_to_0.5x0.5_nomask_aave_da_c110920.nc
+rof2ocn_rmapname = /home/j07hsu00/runs/cesm/inputdata/cpl/cpl6/map_r05_to_tx0.1v2_r500e1000_080620.nc
+rof2lnd_fmapname = /home/j07hsu00/runs/cesm/inputdata/lnd/clm2/mappingdata/maps/0.23x0.31/map_0.5x0.5_nomask_to_0.23x0.31_nomask_aave_da_c110920.nc
+atm2ocn_fmapname = /home/j07hsu00/runs/cesm/inputdata/cpl/cpl6/map_fv0.23x0.31_to_tx0.1v2_aave_da_090127.nc
+atm2ice_smapname = /home/j07hsu00/runs/cesm/inputdata/cpl/cpl6/map_fv0.23x0.31_to_tx0.1v2_bilin_da_090127.nc
+ocn2atm_fmapname = /home/j07hsu00/runs/cesm/inputdata/cpl/cpl6/map_tx0.1v2_to_fv0.23x0.31_aave_da_090127.nc
+atm2ice_vmapname = /home/j07hsu00/runs/cesm/inputdata/cpl/cpl6/map_fv0.23x0.31_to_tx0.1v2_bilin_da_090127.nc
+rof2lnd_smapname = /home/j07hsu00/runs/cesm/inputdata/lnd/clm2/mappingdata/maps/0.23x0.31/map_0.5x0.5_nomask_to_0.23x0.31_nomask_aave_da_c110920.nc
+ice2atm_fmapname = /home/j07hsu00/runs/cesm/inputdata/cpl/cpl6/map_tx0.1v2_to_fv0.23x0.31_aave_da_090127.nc
+ice2atm_smapname = /home/j07hsu00/runs/cesm/inputdata/cpl/cpl6/map_tx0.1v2_to_fv0.23x0.31_aave_da_090127.nc
+atm2ocn_vmapname = /home/j07hsu00/runs/cesm/inputdata/cpl/cpl6/map_fv0.23x0.31_to_tx0.1v2_bilin_da_090127.nc
+atm2ice_fmapname = /home/j07hsu00/runs/cesm/inputdata/cpl/cpl6/map_fv0.23x0.31_to_tx0.1v2_aave_da_090127.nc
+atm2ocn_smapname = /home/j07hsu00/runs/cesm/inputdata/cpl/cpl6/map_fv0.23x0.31_to_tx0.1v2_bilin_da_090127.nc
+ocn2atm_smapname = /home/j07hsu00/runs/cesm/inputdata/cpl/cpl6/map_tx0.1v2_to_fv0.23x0.31_aave_da_090127.nc

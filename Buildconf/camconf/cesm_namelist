@@ -1,0 +1,9 @@
+&cam_inparm
+ dtime = 900
+ ncdata='f02.t12.B2000.ocn62levs.cam.i.0002-01-01-00000.nc'
+ 
+ co2vmr=369.125e-6
+ start_ymd = 00020101 
+ 
+ncdata = '/work1/j07hcl00/taiesm_work/f02.t12.B2000.ocn62levs/run/f02.t12.B2000.hi25f4.cam.i.0058-01-01-00000.nc'
+/
