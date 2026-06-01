@@ -1,0 +1,69 @@
+#
+# Makefile Macros generated from /home/j07hsu00/taiesm/TaiESM_1/scripts/ccsm_utils/Machines/config_compilers.xml using
+# COMPILER=intel
+# OS=Linux
+# MACH=f1
+#
+CPPDEFS+= -DFORTRANUNDERSCORE -DNO_R16 -DLinux -DCPRINTEL 
+
+SLIBS+=-qmkl=sequential -L$(NETCDF_PATH)/lib -lnetcdff -lnetcdf -lhdf5_hl -lhdf5 -L$(PNETCDF_PATH)/lib -lpnetcdf -shared-intel 
+
+CFLAGS:= -O2 -fp-model precise 
+
+CONFIG_ARGS:=--host=linux
+
+CXX_LDFLAGS:= -cxxlib 
+
+CXX_LINKER:=FORTRAN
+
+FC_AUTO_R8:= -r8 
+
+FFLAGS:= -qno-opt-dynamic-align -fp-model source -convert big_endian -assume byterecl -ftz -traceback -assume realloc_lhs 
+
+FFLAGS_NOOPT:= -O0 
+
+FIXEDFLAGS:= -fixed -132 
+
+FREEFLAGS:= -free 
+
+MPICC:= mpiicc  
+
+MPICXX:= mpiicpc 
+
+MPIFC:= mpiifort 
+
+NETCDF_DIR:=$(NETCDF_PATH)
+
+NETCDF_PATH:=$(NETCDF_PATH)
+
+PIO_FILESYSTEM_HINTS:=gpfs
+
+PNETCDF_PATH:=$(PNETCDF_PATH)
+
+SCC:= icc 
+
+SCXX:= icpc 
+
+SFC:= ifort 
+
+SUPPORTS_CXX:=TRUE
+
+ifeq ($(MODEL), pop2) 
+   CPPDEFS += -D_USE_FLOW_CONTROL 
+endif
+
+ifeq ($(DEBUG), FALSE) 
+   FFLAGS += -O2 
+endif
+
+ifeq ($(DEBUG), TRUE) 
+   FFLAGS += -O0 -g -check uninit -check bounds -check pointers -fpe0 
+   CMAKE_OPTS += -DPIO_ENABLE_LOGGING=ON 
+endif
+
+ifeq ($(compile_threaded), true) 
+   CFLAGS += -qopenmp 
+   LDFLAGS += -qopenmp 
+   FFLAGS += -qopenmp 
+endif
+

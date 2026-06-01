@@ -1,0 +1,31 @@
+&clm_inparm
+ albice = 0.80,0.55
+ co2_type = 'diagnostic'
+ create_crop_landunit = .false.
+ dtime = 1800
+ f3dtopo = '/home/j07hsu00/runs/cesm/inputdata/TaiESM_Input/3D-Topo/topo_3d_0.9x1.25_c150322.nc'
+ fatmlndfrc = '/home/j07hsu00/runs/cesm/inputdata/share/domains/domain.lnd.fv0.9x1.25_gx1v6.090309.nc'
+ finidat = 'f09.B-PI.tn15.cmip6.j01.re.clm2.r.0671-01-01-00000.nc'
+ fpftcon = '/home/j07hsu00/runs/cesm/inputdata/lnd/clm2/pftdata/pft-physiology.clm40.c130424.nc'
+ fpftdyn = '/home/j07hsu00/runs/cesm/inputdata/Forcing_CMIP7/TaiESM1/Land_Use/surfdata.pftdyn_0.9x1.25_hist_simyr1850-2023_c260430.nc'
+ fsnowaging = '/home/j07hsu00/runs/cesm/inputdata/lnd/clm2/snicardata/snicar_drdt_bst_fit_60_c070416.nc'
+ fsnowoptics = '/home/j07hsu00/runs/cesm/inputdata/lnd/clm2/snicardata/snicar_optics_5bnd_c090915.nc'
+ fsurdat = '/home/j07hsu00/runs/cesm/inputdata/Forcing_CMIP7/TaiESM1/Land_Use/surfdata_0.9x1.25_simyr1850_c260430.nc'
+ maxpatch_glcmec = 0
+ nsegspc = 20
+ rad_3d_topo = .true.
+ urban_hac = 'ON_WASTEHEAT'
+ urban_traffic = .false.
+/
+&ndepdyn_nml
+ ndepmapalgo = 'bilinear'
+ stream_fldfilename_ndep = '/home/j07hsu00/runs/cesm/inputdata/CMIP6-Input/SSP-TaiESM/lnd_data/ndep/fndep_clm_hist_simyr1850-2014_1.9x2.5_c190305.nc'
+ stream_year_first_ndep = 1850
+ stream_year_last_ndep = 1850
+/
+#!--------------------------------------------------------------------------------------------------------------------------
+#! lnd_in:: Comment:
+#! This namelist was created using the following command-line:
+#!     /home/j07hsu00/taiesm/TaiESM_1/models/lnd/clm/bld/CLM build-namelist -infile /work1/j07hsu00/taiesm_work/f09.B-PI.cmip7.t02/Buildconf/clmconf/cesm_namelist -csmdata /home/j07hsu00/runs/cesm/inputdata -inputdata /work1/j07hsu00/taiesm_work/f09.B-PI.cmip7.t02/Buildconf/clm.input_data_list -ignore_ic_year -namelist &clm_inparm start_ymd = 00010101  / -use_case 1850_control -res 0.9x1.25 -clm_start_type startup -l_ncpl 48 -lnd_frac /home/j07hsu00/runs/cesm/inputdata/share/domains/domain.lnd.fv0.9x1.25_gx1v6.090309.nc -glc_nec 0 -co2_ppmv 284.317 -co2_type diagnostic -config /work1/j07hsu00/taiesm_work/f09.B-PI.cmip7.t02/Buildconf/clmconf/config_cache.xml
+#! For help on options use: /home/j07hsu00/taiesm/TaiESM_1/models/lnd/clm/bld/CLM build-namelist -help
+#!--------------------------------------------------------------------------------------------------------------------------

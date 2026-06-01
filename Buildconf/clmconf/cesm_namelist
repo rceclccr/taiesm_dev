@@ -1,0 +1,6 @@
+&clm_inparm
+ finidat = 'f09.B-PI.tn15.cmip6.j01.re.clm2.r.0671-01-01-00000.nc'
+ fsurdat = '/home/j07hsu00/runs/cesm/inputdata/Forcing_CMIP7/TaiESM1/Land_Use/surfdata_0.9x1.25_simyr1850_c260430.nc'
+ fpftdyn = '/home/j07hsu00/runs/cesm/inputdata/Forcing_CMIP7/TaiESM1/Land_Use/surfdata.pftdyn_0.9x1.25_hist_simyr1850-2023_c260430.nc'
+
+/

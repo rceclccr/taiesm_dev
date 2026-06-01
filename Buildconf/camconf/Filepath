@@ -1,0 +1,17 @@
+/work1/j07hsu00/taiesm_work/f09.B-PI.cmip7.t02/SourceMods/src.cam
+/home/j07hsu00/taiesm/TaiESM_1/models/atm/cam/src/chemistry/pp_trop_snap
+/home/j07hsu00/taiesm/TaiESM_1/models/atm/cam/src/chemistry/modal_aero_snap
+/home/j07hsu00/taiesm/TaiESM_1/models/atm/cam/src/chemistry/mozart
+/home/j07hsu00/taiesm/TaiESM_1/models/atm/cam/src/chemistry/bulk_aero
+/home/j07hsu00/taiesm/TaiESM_1/models/atm/cam/src/chemistry/utils
+/home/j07hsu00/taiesm/TaiESM_1/models/atm/cam/src/physics/rrtmg
+/home/j07hsu00/taiesm/TaiESM_1/models/atm/cam/src/physics/rrtmg/ext/rrtmg_mcica
+/home/j07hsu00/taiesm/TaiESM_1/models/atm/cam/src/physics/rrtmg/ext/rrtmg_lw
+/home/j07hsu00/taiesm/TaiESM_1/models/atm/cam/src/physics/rrtmg/ext/rrtmg_sw
+/home/j07hsu00/taiesm/TaiESM_1/models/atm/cam/src/physics/cam
+/home/j07hsu00/taiesm/TaiESM_1/models/atm/cam/src/dynamics/fv
+/home/j07hsu00/taiesm/TaiESM_1/models/atm/cam/src/utils/pilgrim
+/home/j07hsu00/taiesm/TaiESM_1/models/atm/cam/src/cpl_mct
+/home/j07hsu00/taiesm/TaiESM_1/models/atm/cam/src/cpl_share
+/home/j07hsu00/taiesm/TaiESM_1/models/atm/cam/src/control
+/home/j07hsu00/taiesm/TaiESM_1/models/atm/cam/src/utils

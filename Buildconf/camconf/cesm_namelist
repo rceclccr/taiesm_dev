@@ -1,0 +1,52 @@
+&cam_inparm
+ dtime = 1800
+ ncdata='f09.B-PI.tn15.cmip6.j01.re.cam.i.0671-01-01-00000.nc'
+ 
+ co2vmr=284.317e-6
+ start_ymd = 00010101 
+ 
+ 
+ ext_frc_specifier              = 'SO2         -> /home/j07hsu00/runs/cesm/inputdata/Forcing_CMIP7/TaiESM1/emis-vert-f09/SO2-em-AIR-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-202312_c20251030.nc',
+         'bc_a1       -> /home/j07hsu00/runs/cesm/inputdata/Forcing_CMIP7/TaiESM1/emis-vert-f09/bc_a4-em-AIR-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-202312_c20260409.nc',
+         'num_a1      -> /home/j07hsu00/runs/cesm/inputdata/Forcing_CMIP7/TaiESM1/emis-vert-f09/num_a1_AIR_bc_pom_so4_175001-202312_c20260409_f09.nc',
+         'pom_a1      -> /home/j07hsu00/runs/cesm/inputdata/Forcing_CMIP7/TaiESM1/emis-vert-f09/pom_a4-em-AIR-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-202312_c20260409.nc',
+         'sfc_a1      -> /home/j07hsu00/runs/cesm/inputdata/Forcing_CMIP7/TaiESM1/emis-vert-f09/sfc_a1_AIR_bc_pom_so4_175001-202312_c20260409_f09.nc',
+         'so4_a1      -> /home/j07hsu00/runs/cesm/inputdata/Forcing_CMIP7/TaiESM1/emis-vert-f09/so4_a1_ene_vertical-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-202312_c20260409.nc',
+ ext_frc_type           = 'CYCLICAL'
+ ext_frc_cycle_yr       = 1850
+
+ srf_emis_specifier             = 'DMS       -> /home/j07hsu00/runs/cesm/inputdata/Forcing_CMIP7/TaiESM1/emis-surf-f09/DMS_ocean-bb_175001-202212_f09_c20260514.nc', 
+         'SO2       -> /home/j07hsu00/runs/cesm/inputdata/Forcing_CMIP7/TaiESM1/emis-surf-f09/SO2-em-anthro-bb_175001-202312_c20260408.nc',
+         'SOAG -> /home/j07hsu00/runs/cesm/inputdata/CMIP6-Input/TaiESM-CMIP6/emis_srf/emissions-cmip6_SOAGx1.5_surf_1750-2015_0.9x1.25_c20181207.nc',
+         'bc_a1     -> /home/j07hsu00/runs/cesm/inputdata/Forcing_CMIP7/TaiESM1/emis-surf-f09/bc_a4-em-anthro-bb_175001-202312_c20260408.nc',
+         'num_a1    -> /home/j07hsu00/runs/cesm/inputdata/Forcing_CMIP7/TaiESM1/emis-surf-f09/num_a1_bc_pom_so4_175001-202312_c20260408.nc',
+         'num_a2    -> /home/j07hsu00/runs/cesm/inputdata/Forcing_CMIP7/TaiESM1/emis-surf-f09/num_so4_a2_res_trs-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-202312_c20251030.nc',
+         'pom_a1    -> /home/j07hsu00/runs/cesm/inputdata/Forcing_CMIP7/TaiESM1/emis-surf-f09/pom_a4-em-anthro-bb_175001-202312_c20260408.nc',
+         'sfc_a1    -> /home/j07hsu00/runs/cesm/inputdata/Forcing_CMIP7/TaiESM1/emis-surf-f09/sfc_a1_bc_pom_so4_175001-202312_c20260408.nc',
+         'sfc_a2    -> /home/j07hsu00/runs/cesm/inputdata/Forcing_CMIP7/TaiESM1/emis-surf-f09/sfc_so4_a2_res_trs-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-202312_f09.nc',
+         'so4_a1    -> /home/j07hsu00/runs/cesm/inputdata/Forcing_CMIP7/TaiESM1/emis-surf-f09/so4_a1-emag_ship_slv_bb_175001-202312_c20260408.nc',
+         'so4_a2    -> /home/j07hsu00/runs/cesm/inputdata/Forcing_CMIP7/TaiESM1/emis-surf-f09/so4_a2_res_trs-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-202312_c20251030.nc'
+ srf_emis_type          = 'CYCLICAL'
+ srf_emis_cycle_yr      = 1850
+
+ tracer_cnst_datapath = '/home/j07hsu00/runs/cesm/inputdata/atm/cam/ozone'
+ tracer_cnst_file     = 'tracer_cnst_CAM6chem_1849-2014_3D_monthly_c170925.nc'
+ tracer_cnst_cycle_yr = 1850
+ tracer_cnst_filelist = ''
+
+ prescribed_ozone_datapath = '/home/j07hsu00/runs/cesm/inputdata/atm/cam/ozone/'
+ prescribed_ozone_file     = 'ozone_strataero_CAM6chem_1849-2014_zm_5day_c170924.nc'
+ prescribed_ozone_cycle_yr = 1850
+ prescribed_ozone_type     = 'CYCLICAL'
+ prescribed_ozone_name     = 'O3'
+
+ solar_data_file       = '/home/j07hsu00/runs/cesm/inputdata/atm/cam/solar/SolarForcingCMIP7piControl_c20250103.nc'
+ solar_data_type       = 'FIXED'
+ solar_data_ymd        = 18500101
+ solar_htng_spctrl_scl = .true.
+
+ prescribed_volcaero_datapath = '/home/j07hsu00/runs/cesm/inputdata/CMIP6-Input/TaiESM-CMIP6'
+ prescribed_volcaero_file     = 'TaiESM_1850_2014_Volc_3mode_5day_c200601.nc'
+ prescribed_volcaero_cycle_yr = 1850
+ prescribed_volcaero_type     = 'CYCLICAL'
+/
