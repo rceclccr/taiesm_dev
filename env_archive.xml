@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+
+<config_definition>
+
+<!-- ========================================================================== -->
+<!--                                                                            -->
+<!--       These are the variables specific to the short and long term          -->
+<!--       archiver. We recommend that users *NEVER* run diagnostics            -->
+<!--       or post-processing packages in the same location as the short-term   -->
+<!--       (DOUT_S_ROOT.locked) archiver when the model job is running.         -->
+<!--       Instead, You may run these packages in the (DOUT_S_ROOT)             -->
+<!--       location which contains hard-links back to the files in the          -->
+<!--       (DOUT_S_ROOT.locked) directory.                                      -->
+<!--                                                                            -->
+<!-- ========================================================================== -->
+
+
+
+<!-- ====================================== -->
+
+<!--"logical to turn on short term archiving, valid values: TRUE,FALSE (logical) " -->
+<entry id="DOUT_S"   value="TRUE"  />    
+
+<!--"local short term archiving root directory (char) " -->
+<entry id="DOUT_S_ROOT"   value="/work1/$CCSMUSER/taiesm_work/archive/$CASE"  />    
+
+<!--"logical to archive all interim restart files, not just those at eor, valid values: TRUE,FALSE (logical) " -->
+<entry id="DOUT_S_SAVE_INT_REST_FILES"   value="FALSE"  />    
+
+<!--"logical to save contents of the short term archive on disk, valid values: TRUE,FALSE (logical) " -->
+<entry id="DOUT_S_SAVE_ALL_ON_DISK"   value="FALSE"  />    
+
+<!--"local root directory for saving output on disk (char) " -->
+<entry id="DOUT_S_SAVE_ROOT"   value="UNSET"  />    
+
+<!--"logical to turn on long term archiving (if DOUT_S is also TRUE), valid values: TRUE,FALSE (logical) " -->
+<entry id="DOUT_L_MS"   value="FALSE"  />    
+
+<!--"local long term archiving root directory (char) " -->
+<entry id="DOUT_L_MSROOT"   value="csm/$CASE"  />    
+
+<!--"hpss account number (char) " -->
+<entry id="DOUT_L_HPSS_ACCNT"   value="00000000"  />    
+
+<!--"logical to tar up long term archiver history files, valid values: TRUE,FALSE (logical) " -->
+<entry id="DOUT_L_HTAR"   value="FALSE"  />    
+
+<!-- ====================================== -->
+</config_definition>

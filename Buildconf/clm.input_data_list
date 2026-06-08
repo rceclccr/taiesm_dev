@@ -1,0 +1,10 @@
+fpftdyn = /home/j07hsu00/runs/cesm/inputdata/Forcing_CMIP7/TaiESM1/Land_Use/surfdata.pftdyn_0.9x1.25_hist_simyr1850-2023_c260430.nc
+fpftcon = /home/j07hsu00/runs/cesm/inputdata/lnd/clm2/pftdata/pft-physiology.clm40.c130424.nc
+fsnowaging = /home/j07hsu00/runs/cesm/inputdata/lnd/clm2/snicardata/snicar_drdt_bst_fit_60_c070416.nc
+fsnowoptics = /home/j07hsu00/runs/cesm/inputdata/lnd/clm2/snicardata/snicar_optics_5bnd_c090915.nc
+fsurdat = /home/j07hsu00/runs/cesm/inputdata/Forcing_CMIP7/TaiESM1/Land_Use/surfdata_0.9x1.25_simyr1850_c260430.nc
+f3dtopo = /home/j07hsu00/runs/cesm/inputdata/TaiESM_Input/3D-Topo/topo_3d_0.9x1.25_c150322.nc
+fatmlndfrc = /home/j07hsu00/runs/cesm/inputdata/share/domains/domain.lnd.fv0.9x1.25_gx1v6.090309.nc
+finidat = f09.B-PI.tn15.cmip6.j01.re.clm2.r.0671-01-01-00000.nc
+megan_factors_file = /home/j07hsu00/runs/cesm/inputdata/atm/cam/chem/trop_mozart/emis/megan21_emis_factors_c20120313.nc
+stream_fldfilename_ndep = /home/j07hsu00/runs/cesm/inputdata/CMIP6-Input/SSP-TaiESM/lnd_data/ndep/fndep_clm_hist_simyr1850-2014_1.9x2.5_c190305.nc

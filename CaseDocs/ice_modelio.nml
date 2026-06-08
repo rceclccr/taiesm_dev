@@ -1,0 +1,11 @@
+&modelio
+ diri = '/work1/j07hsu00/taiesm_work/f09.B-PI.cmip7.t03/bld/ice'
+ diro = '/work1/j07hsu00/taiesm_work/f09.B-PI.cmip7.t03/run'
+ logfile = 'ice.log.260606-045147'
+/
+&pio_inparm
+ pio_numiotasks = -99
+ pio_root = -99
+ pio_stride = -99
+ pio_typename = 'nothing'
+/
