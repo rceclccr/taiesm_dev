@@ -1,0 +1,7 @@
+&clm_inparm
+ finidat = 'f09.B-PI.tn15.cmip6.j01.re.clm2.r.0671-01-01-00000.nc'
+ fsurdat = '/home/j07hsu00/runs/cesm/inputdata/Forcing_CMIP6/lnd/clm2/surfdata/surfdata_0.9x1.25_simyr1850_c180607.nc'
+ fpftdyn = '/home/j07hsu00/runs/cesm/inputdata/CMIP6-Input/clm2/surfdata/surfdata.pftdyn_0.9x1.25_simyr1850-2005_c180813.nc'
+ stream_fldfilename_ndep = '/home/j07hsu00/runs/cesm/inputdata/CMIP6-Input/clm2/ndepdata/fndep_clm_hist_simyr1850-2014_1.9x2.5_c190305.nc'
+
+/
